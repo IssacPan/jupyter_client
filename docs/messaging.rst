@@ -8,7 +8,8 @@ This document explains the basic communications design and messaging
 specification for how Jupyter frontends and kernels communicate.
 The ZeroMQ_ library provides the low-level transport layer over which these
 messages are sent.
-
+这个文档解释了jupyter前端和kernels核心通讯的基本的通讯设计和消息规则。
+当消息发送时，ZeroMQ组件提供了底层的传输。
 .. important::
    This document contains the authoritative description of the
    IPython messaging protocol. All developers are strongly encouraged to
